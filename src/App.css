@@ -1,0 +1,38 @@
+:root {
+  --primary-color: #01b574;
+  --primary1-color: #f1f5f5;
+  --danger-color: #e21515;
+}
+
+body {
+  background-color: #f1f5f5;
+}
+
+.vh-50 {
+  height: 50vh;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: transparent;
+}
+.danger {
+  color: var(--danger-color) !important;
+  letter-spacing: 1px;
+}
+.bg-primary {
+  background-color: var(--primary-color) !important;
+}
+.custom-select option {
+  background-color: transparent;
+}
+table {
+  background-color: var(--primary1-color);
+  border-radius: 10px;
+  /* border: 0.5px solid gray; */
+}
+tbody {
+}
+th {
+  font-weight: bold;
+}
